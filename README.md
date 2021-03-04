@@ -10,3 +10,5 @@ The changes made are:
 
 **Project in progress. Untested. Not suitable for production yet.**
 
+![](pcb-c64c-v1.png)
+
