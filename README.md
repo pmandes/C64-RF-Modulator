@@ -1,7 +1,6 @@
 # C64-RF-Modulator
 
 This is a project based on an analog module by c0pperdragon:
-
 https://github.com/c0pperdragon/C64-Video-Enhancement
 
 
