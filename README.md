@@ -5,7 +5,7 @@ This is a project based on an analog module by c0pperdragon:
 https://github.com/c0pperdragon/C64-Video-Enhancement
 
 
-The changes made are:
+### Changelog:
 
 1.2
 - internal audio route to left and/or right channel
