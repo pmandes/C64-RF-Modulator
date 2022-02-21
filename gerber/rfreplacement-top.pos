@@ -1,0 +1,26 @@
+### Module positions - created on Sun Feb 20 00:27:05 2022 ###
+### Printed by Pcbnew version (6.0.0)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                                           PosX       PosY       Rot  Side
+AMP2      THS7316         SSOP-8_3.95x5.21x3.27mm_P1.27mm               119.5070   -73.4060   90.0000  top
+C1        10uF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   117.6110  -106.9340  180.0000  top
+C9        10uF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   123.4440   -73.1520   90.0000  top
+C10       100nF           C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   118.8720   -80.7810  -90.0000  top
+C28       100nF           C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   116.3320   -80.7810   90.0000  top
+C29       100nF           C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   121.4120   -80.7810   90.0000  top
+FB1       Ferrite_Bead    L_0805_2012Metric_Pad1.15x1.40mm_HandSolder   129.0230   -73.4060    0.0000  top
+FB2       Ferrite_Bead    L_0805_2012Metric_Pad1.15x1.40mm_HandSolder   129.0410   -66.8020    0.0000  top
+R30       3k3             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   114.4270   -70.2310   90.0000  top
+R31       1k              R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   122.5550   -66.0400  -90.0000  top
+R32       2k2             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   114.4270   -75.7010  -90.0000  top
+R33       75              R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   116.7220   -60.7060    0.0000  top
+R34       75              R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   116.7220   -65.7860  180.0000  top
+R35       75              R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   116.7220   -63.2460    0.0000  top
+R36       680             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   122.4370   -94.9960  180.0000  top
+R37       330             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   122.4370   -85.4710  180.0000  top
+R38       680             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   121.4120   -90.5510  -90.0000  top
+R39       680             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   114.4270   -85.4710   90.0000  top
+R40       330             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   116.9670   -85.4710  -90.0000  top
+REG2      LM1117IMPX-3.3  SOT-223                                       119.3800  -101.6000    0.0000  top
+## End
