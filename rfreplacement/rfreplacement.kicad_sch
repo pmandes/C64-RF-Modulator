@@ -2,14 +2,17 @@
 
   (uuid 9a0e3f7a-6fdd-4fca-b158-95a5a7d5ad11)
 
-  (paper "A3")
+  (paper "A4")
 
   (title_block
-    (title "RF replacement, analog only")
-    (date "2019-03-10")
-    (rev "1")
+    (title "C64 RF Modulator Replacement")
+    (date "2022-03-22")
+    (rev "1.2")
     (company "c0pperdragon")
     (comment 1 "github.com/c0pperdragon/A-VideoBoard")
+    (comment 2 "Based on:")
+    (comment 3 "github.com/pmandes/C64-RF-Modulator")
+    (comment 4 "S-Video / Stereo Audio mod:")
   )
 
   (lib_symbols
@@ -1514,6 +1517,11 @@
     (uuid fde234b9-bbe6-4d1b-89ae-5cd0c0795704)
   )
 
+  (text "FB1, FB2 are alternative SMD equivalents" (at 94.234 89.408 0)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid c31de2e1-3f0e-4a2d-8082-a9a20db46120)
+  )
+
   (label "LUMA_OUT" (at 35.56 66.04 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 0edf6caa-b3f1-4cb1-a105-249e2bb69e86)
@@ -1804,7 +1812,7 @@
     (property "Reference" "REG2" (id 0) (at 69.85 180.34 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "LM1117IMPX-3.3" (id 1) (at 64.77 182.88 0)
+    (property "Value" "LM1117-3.3" (id 1) (at 64.77 182.88 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-223" (id 2) (at 58.42 171.45 90)
@@ -2313,7 +2321,7 @@
     (in_bom yes) (on_board yes)
     (uuid 69029636-79e5-47ae-bb14-9bc5dbdeb2b4)
     (property "Reference" "FB4" (id 0) (at 92.456 80.772 90))
-    (property "Value" "Alternative THT" (id 1) (at 92.456 83.058 90))
+    (property "Value" "81-BL02RN1R2M2" (id 1) (at 92.456 83.058 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 92.456 75.692 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2366,7 +2374,7 @@
     (in_bom yes) (on_board yes)
     (uuid 9bf51e3d-f1ce-4052-a53d-f14c0b1c3c61)
     (property "Reference" "FB3" (id 0) (at 92.964 53.086 90))
-    (property "Value" "Alternative THT" (id 1) (at 93.218 54.864 90))
+    (property "Value" "81-BL02RN1R2M2" (id 1) (at 93.218 54.864 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 92.964 55.626 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2488,10 +2496,10 @@
       (reference "FB2") (unit 1) (value "Ferrite Bead") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/9bf51e3d-f1ce-4052-a53d-f14c0b1c3c61"
-      (reference "FB3") (unit 1) (value "Alternative THT") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "FB3") (unit 1) (value "81-BL02RN1R2M2") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/69029636-79e5-47ae-bb14-9bc5dbdeb2b4"
-      (reference "FB4") (unit 1) (value "Alternative THT") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "FB4") (unit 1) (value "81-BL02RN1R2M2") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006040665e"
       (reference "GND1") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -2548,7 +2556,7 @@
       (reference "R40") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005c765aab"
-      (reference "REG2") (unit 1) (value "LM1117IMPX-3.3") (footprint "Package_TO_SOT_SMD:SOT-223")
+      (reference "REG2") (unit 1) (value "LM1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223")
     )
     (path "/00000000-0000-0000-0000-00005c1ae2ca"
       (reference "RFCONC1") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")

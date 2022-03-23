@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "C64 RF Modulator Replacement")
+    (date "2022-03-22")
+    (rev "1.2")
+    (company "For Assy  No.250469")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -165,12 +172,12 @@
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005ca1c516")
     (attr smd)
-    (fp_text reference "THS3716" (at 0 0 90) (layer "F.SilkS")
+    (fp_text reference "THS7316" (at 0 0 90) (layer "F.SilkS")
       (effects (font (size 0.7 0.7) (thickness 0.15)))
       (tstamp d0a52a9d-068e-48d6-b318-4a61d274b3a3)
     )
-    (fp_text value "THS7316" (at 0 3.75) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value "THS7316" (at 0.062 -0.035 90) (layer "F.Fab") hide
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
       (tstamp bcfcc8fb-08c2-4d86-82d7-f6de2a83fb25)
     )
     (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
@@ -798,8 +805,8 @@
       (effects (font (size 0.7 0.7) (thickness 0.15)))
       (tstamp c1b75659-cb0d-4581-bc09-ddd48c91ebf7)
     )
-    (fp_text value "LM1117IMPX-3.3" (at 0 4.5 90) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value "LM1117-3.3" (at -0.308 -0.056 180) (layer "F.Fab") hide
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
       (tstamp 64c4a5be-aba7-4846-ab0a-8d22cb3f780e)
     )
     (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
@@ -1639,7 +1646,7 @@
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
       (tstamp cc90ed9d-8106-4bbf-b5da-b6d47c433212)
     )
-    (fp_text value "Alternative THT" (at 3.81 -2.37 -270) (layer "B.Fab")
+    (fp_text value "81-BL02RN1R2M2" (at 3.81 -2.37 -270) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d558ba63-9247-48b8-9d54-2c53e59822db)
     )
@@ -1687,7 +1694,7 @@
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
       (tstamp 2992ff50-f7a2-4ab1-9661-b69ece674842)
     )
-    (fp_text value "Alternative THT" (at 3.81 -2.37 -270) (layer "B.Fab")
+    (fp_text value "81-BL02RN1R2M2" (at 3.81 -2.37 -270) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 43a90941-e18d-4d6a-8430-65a6557df274)
     )
