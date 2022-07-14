@@ -1,4 +1,4 @@
-# C64-RF-Modulator
+# C64-RF-Modulator with S-Video Mod
 
 This is a project of a modulator replacement based on an analog c0pperdragon module. It was adjusted in size to the Commodore C64C motherboard and extended with S-Video and Strereo Audio outputs.
 
